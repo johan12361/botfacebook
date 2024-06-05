@@ -3,7 +3,7 @@ from selenium import webdriver
 
 class Config:
     
-    tiempobloqueo = 20
+    tiempobloqueo = 3
     #otros
     lenguaje = "EN"
     facebookLeng = "EN"
@@ -45,7 +45,7 @@ class Info(object):
     __instance = None
 
     nombre = "Multi Post FB"
-    version = "1.2.1"
+    version = "1.2.2"
     fecha = "05-2024"
 
     def __new__(cls):

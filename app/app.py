@@ -10,7 +10,7 @@ from ui.publicacion import publicacion
 
 # oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json" | Invoke-Expression
 # .\env\Scripts\activate
-# flet pack .\app\app.py --icon .\Res\ico.ico --product-name "Multi Post FB" --product-version "1.2.1" --copyright "MultiPostFB.site 2024"
+# flet pack .\app\app.py --icon .\Res\ico.ico --product-name "Multi Post FB" --product-version "1.2.2" --copyright "MultiPostFB.site 2024"
 
 os.system("cls")
 

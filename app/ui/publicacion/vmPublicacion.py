@@ -193,7 +193,6 @@ class VmPublicacion:
                             ]
                         )
 
-                self.GuardarPost()
                 # SS Si se cancela
                 if self.cancelarPorceso:
                     # Proceso Cancelado

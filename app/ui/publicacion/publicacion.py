@@ -68,6 +68,7 @@ def ejecutar(page: ft.Page, cambio: str):
         depurado = ""
         if "ACT-" in mensaje[0]:
             ActualizarGrupos()
+            time.sleep(2)
             blokGrupos.content.scroll_to(key="XXX", duration=1000)
 
         elif "xxx" in mensaje[0]:
